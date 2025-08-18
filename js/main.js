@@ -6,7 +6,7 @@ $('.drp_btn').click(function () {
 window.addEventListener('scroll', function() {
   var header = document.querySelector('header');
   if (!header) return;
-  if (window.scrollY > 10) {
+  if (window.scrollY > 50) {
     header.classList.add('floating-header');
   } else {
     header.classList.remove('floating-header');
