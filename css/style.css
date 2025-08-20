@@ -776,6 +776,7 @@ header {
 /* hero slider wraper */
 .banner_section {
     padding: 70px 0;
+    height: calc(100vh - 87px);
     position: relative;
     background: var(--primery);
     overflow: hidden;
@@ -922,13 +923,17 @@ header {
 .banner_section .banner_slider .slider_frame {
     position: absolute;
     left: 50%;
+    top: -3px;
     transform: translateX(-50%);
     z-index: 999;
-    width: 300px;
+    width: 293px;
+}
+.banner_section .banner_slider .slider_frame .owl-carousel .owl-stage-outer{
+    border-radius: 32px;
 }
 
 .banner_section .banner_slider #frmae_slider {
-    width: 280px;
+    width: 273px;
     margin: 0 auto;
     overflow: hidden;
     border-radius: 40px;
