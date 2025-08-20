@@ -938,7 +938,9 @@ header {
     overflow: hidden;
     border-radius: 40px;
 }
-
+.banner_section .banner_slider #frmae_slider.owl-carousel .owl-stage-outer {
+    border-radius: 40px;
+}
 .banner_section .banner_slider #frmae_slider::before {
     content: "";
     position: absolute;
