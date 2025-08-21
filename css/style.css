@@ -975,6 +975,12 @@ header {
     width: auto;
 }
 
+.abtImg {
+    width: 300px;
+}
+.abtImg > img{
+    width: 100%;
+}
 /* -----Typing Text------- */
 .typed-cursor {
     opacity: 1;
