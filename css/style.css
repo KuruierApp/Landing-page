@@ -723,7 +723,7 @@ header {
     width: 25px;
     margin: 10px 0;
     position: relative;
-    border-top: 4px solid var(--dark-black);
+    border-top: 3px solid #fff;
     display: block;
 }
 
@@ -731,8 +731,8 @@ header {
 .toggle-bar::after {
     content: "";
     display: block;
-    background: var(--dark-black);
-    height: 4px;
+    background: #fff;
+    height: 3px;
     width: 30px;
     position: absolute;
     top: -12px;
@@ -748,7 +748,7 @@ header {
 .white_header .toggle-bar,
 .white_header .toggle-bar::before,
 .white_header .toggle-bar::after {
-    border-top: 4px solid var(--bg-white);
+    border-top: 3px solid var(--bg-white);
 }
 
 .toggle-bar::after {
@@ -2099,7 +2099,10 @@ iframe#youtubevideo {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+.downaload_section .center_screen img {
+    max-width: 590px;
+    width: 100%;
+}
 .downaload_section .app_btn {
     display: flex;
     align-items: center;

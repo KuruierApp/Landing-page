@@ -175,6 +175,7 @@
 
     .banner_section {
         text-align: center;
+        height: auto;
     }
 
     .banner_section .app_btn,
@@ -697,9 +698,9 @@
     }
 
     /* banner section */
-    .banner_section {
+    /* .banner_section {
         margin-top: 60px;
-    }
+    } */
 
     .banner_section .banner_text {
         /*margin-top: -30px;*/
