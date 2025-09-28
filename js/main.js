@@ -99,7 +99,7 @@ $('#screen_slider').owlCarousel({
   center: true,
   responsive: {
     0: {
-      items: 1
+      items: 2
     },
     600: {
       items: 3
@@ -449,4 +449,6 @@ $(document).ready(function () {
 // INITIALIZE AOS
 
 AOS.init();
+
+// Email enquiry for newsletter form - now handled by PHP
 
