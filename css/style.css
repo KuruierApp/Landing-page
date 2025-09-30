@@ -561,7 +561,16 @@ header {
     transition: transform .3s ease-in;
 }
 
-
+#navbarSupportedContent {
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#navbarSupportedContent .navbar-nav {
+    background-color: var(--primery);
+}
 /* navigation bar */
 .navbar {
     padding: 0;
