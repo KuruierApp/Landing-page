@@ -97,7 +97,7 @@
     background: url('../images/stars.png') no-repeat center center;
     background-size: 40px 40px;
     opacity: 0.7;
-    z-index: -1;
+    z-index: 0;
     animation: blink-stars 1.2s infinite;
     pointer-events: none;
 }
@@ -561,16 +561,6 @@ header {
     transition: transform .3s ease-in;
 }
 
-#navbarSupportedContent {
-    position: absolute;
-    width: 100%;
-    top: 60px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-#navbarSupportedContent .navbar-nav {
-    background-color: var(--primery);
-}
 /* navigation bar */
 .navbar {
     padding: 0;
