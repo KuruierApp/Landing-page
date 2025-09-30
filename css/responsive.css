@@ -1543,12 +1543,43 @@
     #navbarSupportedContent .navbar-nav {
         background-color: var(--primery);
     }
+    /* floating header — animate in from bottom when switching from sticky -> fixed
+        JS should add a class like "is-fixed" or "animate-in" when the header becomes fixed */
     .floating-header {
-        position: fixed;
-        top: unset;
-        bottom: 20px;
-        left: 50%;
-        transform: translateX(-50%);
+         position: fixed;
+         top: unset;
+         bottom: 20px;
+         left: 50%;
+         /* start off-screen (below) and invisible */
+         transform: translate(-50%, 100%);
+         opacity: 0;
+         transition: transform .45s cubic-bezier(.22,1,.36,1), opacity .3s ease;
+         will-change: transform, opacity;
+         pointer-events: none;
+    }
+
+    /* Visible/fixed state — slides up into place */
+    .floating-header.is-fixed,
+    .floating-header.visible {
+         transform: translate(-50%, 0);
+         opacity: 1;
+         pointer-events: auto;
+    }
+
+    /* Optional: class-triggered keyframe animation (useful if you prefer keyframes) */
+    .floating-header.animate-in {
+         animation: bottomMenu .5s .05s cubic-bezier(.22,1,.36,1) both;
+    }
+
+    @keyframes bottomMenu {
+         from {
+              transform: translate(-50%, 100%);
+              opacity: 0;
+         }
+         to {
+              transform: translate(-50%, 0);
+              opacity: 1;
+         }
     }
     .navbar {
         padding: 0 10px;

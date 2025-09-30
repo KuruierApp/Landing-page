@@ -1,17 +1,81 @@
-// Open Sub Menu
-$('.drp_btn').click(function () {
-  $(this).siblings('.sub_menu').slideToggle(500);
-})
-// Floating header on scroll
-window.addEventListener('scroll', function() {
+// Open Sub Menu — initialize after DOM ready and handle jQuery absence
+(function() {
+  function initSubMenu() {
+    if (window.jQuery) {
+      $('.drp_btn').click(function () {
+        $(this).siblings('.sub_menu').slideToggle(500);
+      });
+      return;
+    }
+
+    // Fallback: simple vanilla JS toggle (no slide animation)
+    document.addEventListener('click', function (e) {
+      var btn = e.target.closest && e.target.closest('.drp_btn');
+      if (!btn) return;
+      var parent = btn.parentElement || btn.parentNode;
+      if (!parent) return;
+      var sub = parent.querySelector('.sub_menu');
+      if (!sub) return;
+      var visible = getComputedStyle(sub).display !== 'none';
+      sub.style.display = visible ? 'none' : 'block';
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initSubMenu);
+  } else {
+    initSubMenu();
+  }
+})();
+// Floating header on scroll — improved: animate-in and cleanup
+(function() {
   var header = document.querySelector('header');
   if (!header) return;
-  if (window.scrollY > 50) {
+
+  var isFloating = false;
+  var removeFloatingTimeout = null;
+
+  function showFloatingHeader() {
+    if (removeFloatingTimeout) {
+      clearTimeout(removeFloatingTimeout);
+      removeFloatingTimeout = null;
+    }
+    // ensure floating styles are applied
     header.classList.add('floating-header');
-  } else {
-    header.classList.remove('floating-header');
+    // next frame, add the class that triggers the slide-up animation
+    window.requestAnimationFrame(function() {
+      // tiny timeout so the browser registers the initial state first
+      setTimeout(function() {
+        header.classList.add('is-fixed', 'animate-in', 'visible');
+      }, 20);
+    });
+    isFloating = true;
   }
-});
+
+  function hideFloatingHeader() {
+    // remove the fixed/visible classes to trigger slide-down
+    header.classList.remove('is-fixed', 'animate-in', 'visible');
+    // after the CSS transition finishes, remove the floating-header class
+    // transition duration in CSS is ~450ms, so wait slightly longer
+    removeFloatingTimeout = setTimeout(function() {
+      header.classList.remove('floating-header');
+      removeFloatingTimeout = null;
+    }, 520);
+    isFloating = false;
+  }
+
+  function onScrollFloatingHeader() {
+    if (window.scrollY > 50) {
+      if (!isFloating) showFloatingHeader();
+    } else {
+      if (isFloating) hideFloatingHeader();
+    }
+  }
+
+  window.addEventListener('scroll', onScrollFloatingHeader);
+  // init on load
+  onScrollFloatingHeader();
+})();
 
 // Preloader JS
 
