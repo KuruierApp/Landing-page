@@ -54,7 +54,16 @@
           <li><span class="section-number">7.</span> <strong>Cookies</strong><br />
             Kuruier uses cookies for session management and analytics.
           </li>
-          <li><span class="section-number">8.</span> <strong>Contact</strong><br />
+          <li><span class="section-number">8.</span> <strong>User Data Deletion</strong><br />
+            You can request to delete your account and all associated personal data at any time.<br />
+            <strong>How to delete your Kuruier account and data:</strong><br />
+            1. Open the Kuruier app.<br />
+            2. Go to the <strong>Profile</strong> tab.<br />
+            3. Scroll down and tap on <strong>Delete Account</strong>.<br />
+            4. Confirm your choice. All your personal data will be removed from our systems.<br />
+            Alternatively, you can email us at <a href="mailto:support@kuruier.com">support@kuruier.com</a> to request data deletion.
+          </li>
+          <li><span class="section-number">9.</span> <strong>Contact</strong><br />
             Privacy Queries: <a href="mailto:privacy@kuruier.com">privacy@kuruier.com</a>
           </li>
         </ul>
