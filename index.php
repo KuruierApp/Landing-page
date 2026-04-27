@@ -14,11 +14,11 @@
             <div class="type-wrap">
             </div>
             <!-- h1 -->
-            <h1>Fast, Affordable & <span>Secure Courier Delivery</span></h1>
+            <h1>One App. <span>Three Delivery Models.</span> Every Distance Covered.</h1>
             <!-- p -->
             <p>
-              Connecting travelers with shipment owners to deliver your documents worldwide — faster and cheaper than
-              traditional couriers.
+              Send via flight travelers, road travelers, or on-demand local riders — faster and cheaper than traditional
+              couriers, with secure OTP handovers every step of the way.
             </p>
           </div>
 
@@ -65,42 +65,37 @@
             <div id="frmae_slider" class="owl-carousel owl-theme">
               <div class="item">
                 <div class="slider_img">
-                  <img src="images/1banner.png" alt="image">
+                  <img src="images/new_screenshots/onboarding.png" alt="image">
                 </div>
               </div>
               <div class="item">
                 <div class="slider_img">
-                  <img src="images/addPackage.png" alt="image">
+                  <img src="images/new_screenshots/Sender_role.png" alt="image">
                 </div>
               </div>
               <div class="item">
                 <div class="slider_img">
-                  <img src="images/2banner.png" alt="image">
+                  <img src="images/new_screenshots/Traveler_role.png" alt="image">
                 </div>
               </div>
               <div class="item">
                 <div class="slider_img">
-                  <img src="images/3banner.png" alt="image">
+                  <img src="images/new_screenshots/create_travel.png" alt="image">
                 </div>
               </div>
               <div class="item">
                 <div class="slider_img">
-                  <img src="images/4banner.png" alt="image">
+                  <img src="images/new_screenshots/My_packages.png" alt="image">
                 </div>
               </div>
               <div class="item">
                 <div class="slider_img">
-                  <img src="images/5banner.png" alt="image">
+                  <img src="images/new_screenshots/Traveler_list.png" alt="image">
                 </div>
               </div>
               <div class="item">
                 <div class="slider_img">
-                  <img src="images/6banner.png" alt="image">
-                </div>
-              </div>
-              <div class="item">
-                <div class="slider_img">
-                  <img src="images/7banner.png" alt="image">
+                  <img src="images/new_screenshots/tracking.png" alt="image">
                 </div>
               </div>
             </div>
@@ -129,7 +124,7 @@
           <!-- task images -->
           <div class="task_img" data-aos="fade-in" data-aos-duration="1500">
             <div class="frame_img">
-              <img src="images/feature1a.png" alt="image">
+              <img src="images/new_screenshots/Traveler_list.png" alt="image">
             </div>
             <div class="screen_img">
               <img class="moving_animation" src="images/feature1b.svg" alt="image">
@@ -140,16 +135,16 @@
           <!-- task text -->
           <div class="task_text">
             <div class="section_title white_text" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
-              <span class="title_badge">Smart Matching</span>
+              <span class="title_badge">✈️ Air Model</span>
               <span class="icon">
                 <img src="images/feature-icon1.png" alt="image">
               </span>
               <!-- h2 -->
-              <h2>Send Urgent Shipments Easily</h2>
+              <h2>Send with Flight Travelers</h2>
               <!-- p -->
               <p>
-                Worried about sending important shipments quickly and affordably? Kuruier connects you with travelers
-                who deliver them safe and on time.
+                International or inter-city shipment? Kuruier matches you with verified flight travelers heading your
+                way — faster than any courier, at a fraction of the cost.
               </p>
             </div>
           </div>
@@ -167,7 +162,7 @@
           <!-- task images -->
           <div class="task_img" data-aos="fade-in" data-aos-duration="1500">
             <div class="frame_img">
-              <img src="images/feature2a.png" alt="image">
+              <img src="images/new_screenshots/Negotiate.png" alt="image">
             </div>
             <div class="screen_img">
               <img class="moving_animation" src="images/feature2b.svg" alt="image">
@@ -178,15 +173,16 @@
           <!-- task text -->
           <div class="task_text">
             <div class="section_title white_text" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
-              <span class="title_badge">Secure Communication</span>
+              <span class="title_badge">🚗 Road Model</span>
               <span class="icon">
                 <img src="images/feature-icon2.png" alt="image">
               </span>
               <!-- h2 -->
-              <h2> Handover with Confidence</h2>
+              <h2>Send via Car, Bus, Train or Bike</h2>
               <!-- p -->
               <p>
-                Connect with verified travelers, exchange safely, and track your courier from handover to destination.
+                Someone's already heading your way by road. Chat free, negotiate a fair price, and get your package
+                delivered city-to-city at ₹200–800 — no locking fees, just direct deals.
               </p>
             </div>
           </div>
@@ -204,7 +200,7 @@
           <!-- task images -->
           <div class="task_img" data-aos="fade-in" data-aos-duration="1500">
             <div class="frame_img">
-              <img src="images/feature3a.png" alt="image">
+              <img src="images/new_screenshots/tracking.png" alt="image">
             </div>
             <div class="screen_img">
               <img class="moving_animation" src="images/feature3b.svg" alt="image">
@@ -215,16 +211,16 @@
           <!-- task text -->
           <div class="task_text">
             <div class="section_title white_text" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
-              <span class="title_badge">Earn Easily</span>
+              <span class="title_badge">🛵 Kuruier Rider</span>
               <span class="icon">
                 <img src="images/feature-icon3.png" alt="image">
               </span>
               <!-- h2 -->
-              <h2>Deliver & Earn Instantly</h2>
+              <h2>On-Demand Local Delivery</h2>
               <!-- p -->
               <p>
-                Deliver the shipment to the receiver, complete the journey, and get paid instantly — simple, secure, and
-                rewarding.
+                Need something delivered across town right now? A nearby Kuruier Rider picks it up and delivers
+                within the city at a fixed price — with live GPS tracking all the way.
               </p>
             </div>
           </div>
@@ -244,8 +240,8 @@
       <div class="container">
         <div class="section_title" data-aos="fade-up" data-aos-duration="1500">
           <span class="title_badge mb-1">About us</span>
-          <h2>Deliver <img src="images/mobileicon.png" alt="image"> documents worldwide <br>
-            with <span><img src="images/usericon.png" alt="image"> trusted travellers</span> & <span><img
+          <h2>Deliver <img src="images/mobileicon.png" alt="image"> anywhere <br>
+            with <span><img src="images/usericon.png" alt="image"> Air, Road & Rider</span> & <span><img
                 src="images/magnet.png" alt="image"> secure OTP</span></h2>
         </div>
         <div class="row">
@@ -284,9 +280,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <p data-aos="fade-up" data-aos-duration="1500">Kuruier makes international as well as inside country
-              document delivery effortless by connecting shipment owners with real travellers. Verified users, secure
-              OTP handovers, and faster delivery times — all in one simple app.</p>
+            <p data-aos="fade-up" data-aos-duration="1500">Kuruier connects shipment owners with real travelers — by flight, bus, train, car, or bike — and with on-demand local riders for intra-city delivery. Three delivery models, one app: verified users, free-to-negotiate road chats, live GPS tracking, and secure OTP handovers every step of the way.</p>
             <div class="video_block" data-aos="fade-up" data-aos-duration="1500">
               <img class="thumbnil" src="images/applicationvideothumb.png" alt="image">
               <div class="playBtn">
@@ -317,13 +311,25 @@
           </div>
           <div class="item">
             <div class="text_block">
-              <span>Get deliveries done in hours, not weeks</span>
+              <span>Air Model — Send with flight travelers internationally or inter-city</span>
               <span class="mark_star">•</span>
             </div>
           </div>
           <div class="item">
             <div class="text_block">
-              <span>End-to-end secure process with OTP for pickup & delivery </span>
+              <span>Road Model — Negotiate directly with bus, train, car & bike travelers</span>
+              <span class="mark_star">•</span>
+            </div>
+          </div>
+          <div class="item">
+            <div class="text_block">
+              <span>Kuruier Rider — On-demand local delivery with live GPS tracking</span>
+              <span class="mark_star">•</span>
+            </div>
+          </div>
+          <div class="item">
+            <div class="text_block">
+              <span>End-to-end secure process with OTP for pickup & delivery</span>
               <span class="mark_star">•</span>
             </div>
           </div>
@@ -343,29 +349,30 @@
       <div class="container">
         <div class="section_title" data-aos="fade-up" data-aos-duration="1500">
           <span class="title_badge mb-1">How it works?</span>
-          <h2>Premium <span>services</span> of <br>
-            our application</h2>
+          <h2>Three delivery models. <span>One seamless</span> <br>
+            experience.</h2>
         </div>
+
+        <!-- Air Model -->
         <div class="row service_blocks">
-          <div class="col-md-7">
+          <div class="col-md-9">
             <div class="service_text" data-aos="fade-up" data-aos-duration="1500">
-              <div class="service_badge"><i class="icofont-tasks-alt"></i>
-                <span>Shipment Owner</span>
+              <div class="service_badge"><i class="icofont-airplane-alt"></i>
+                <span>Air Model — Flight Travelers</span>
               </div>
-              <h2><span>Add Your </span> Package <br>
-                & Get Instant Traveler Matches</h2>
-              <p>Easily register your document with pickup and delivery details.
-                Our smart system instantly connects you with travelers heading the same way — safe, fast, and
-                affordable.</p>
+              <h2><span>Send Internationally </span> with <br>
+                Verified Flight Travelers</h2>
+              <p>Post your shipment, get matched to a verified traveler on the same flight route, and get it delivered
+                faster and cheaper than any traditional courier.</p>
               <ul class="listing_block">
                 <li>
                   <div class="icon">
                     <span><i class="icofont-ui-check"></i></span>
                   </div>
                   <div class="text">
-                    <h3>Smart Shipment Matching</h3>
-                    <p>Save time by instantly finding verified travelers matching your shipment's origin and destination
-                      airports.</p>
+                    <h3>Airport-to-Airport Matching</h3>
+                    <p>Smart matching connects your shipment with travelers on the same flight route — origin airport to
+                      destination airport.</p>
                   </div>
                 </li>
                 <li>
@@ -373,9 +380,8 @@
                     <span><i class="icofont-ui-check"></i></span>
                   </div>
                   <div class="text">
-                    <h3>Secure OTP Delivery</h3>
-                    <p>Shipments are handed over and delivered only after OTP confirmation to ensure complete safety.
-                    </p>
+                    <h3>Secure OTP Handover & Delivery</h3>
+                    <p>Shipments are handed over and delivered only after OTP confirmation at both pickup and drop-off.</p>
                   </div>
                 </li>
                 <li>
@@ -395,22 +401,146 @@
               </div>
             </div>
           </div>
-          <div class="col-md-5 align-self-center">
+          <div class="col-md-3 align-self-center">
             <div class="img" data-aos="fade-up" data-aos-duration="1500">
-              <img src="images/service1.png" alt="image">
+              <img src="images/new_screenshots/Traveler_chat.png" alt="image">
             </div>
           </div>
         </div>
+
+        <!-- Road Model -->
         <div class="row service_blocks flex-row-reverse">
-          <div class="col-md-6">
+          <div class="col-md-9">
+            <div class="service_text right_side" data-aos="fade-up" data-aos-duration="1500">
+              <div class="service_badge"><i class="icofont-car"></i>
+                <span>Road Model — Bus, Car, Train & Bike</span>
+              </div>
+              <h2><span>Send by Road — </span>Negotiate a Fair Price</h2>
+              <p>Someone's already heading your city by bus, train, car, or bike. Chat for free, agree on a price, and
+                get your package delivered city-to-city at ₹200–800.</p>
+              <ul class="feature_list">
+                <li>
+                  <div class="icon">
+                    <span><i class="icofont-check-circled"></i></span>
+                  </div>
+                  <div class="text">
+                    <p>
+                    <h3>Free chat — no unlock fee</h3> Road chats are open from the start. No payment needed to connect
+                    with a traveler.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon">
+                    <span><i class="icofont-check-circled"></i></span>
+                  </div>
+                  <div class="text">
+                    <p>
+                    <h3>App-suggested + negotiable price</h3> The app calculates a fair starting price; both parties can
+                    make offers and counter-offers inside chat.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon">
+                    <span><i class="icofont-check-circled"></i></span>
+                  </div>
+                  <div class="text">
+                    <p>
+                    <h3>Multi-mode matching</h3> Filter by car, bus, train, or bike — and match travelers with via stops
+                    along your route.</p>
+                  </div>
+                </li>
+              </ul>
+              <div class="btn_block">
+                <a href="#banner" class="btn puprple_btn ml-0">Send by Road</a>
+                <div class="btn_bottom"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="img" data-aos="fade-up" data-aos-duration="1500">
+              <img src="images/new_screenshots/Negotiate.png" alt="image">
+            </div>
+          </div>
+        </div>
+
+        <!-- Kuruier Rider Model -->
+        <div class="row service_blocks">
+          <div class="col-md-9">
+            <div class="service_text" data-aos="fade-up" data-aos-duration="1500">
+              <div class="service_badge"><i class="icofont-motor-biker"></i> <span>Kuruier Rider — Local Delivery</span></div>
+              <h2><span>Instant </span>Intra-City Delivery <br>with Live Tracking</h2>
+              <p>Need something delivered across town right now? A nearby Kuruier Rider picks it up, and you track every
+                move on a live map — all at a transparent fixed price.</p>
+              <ul class="feature_list">
+                <li>
+                  <div class="icon">
+                    <span><i class="icofont-check-circled"></i></span>
+                  </div>
+                  <div class="text">
+                    <p>
+                    <h3>On-demand dispatch</h3> Nearby riders are pinged automatically — no manual searching required.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon">
+                    <span><i class="icofont-check-circled"></i></span>
+                  </div>
+                  <div class="text">
+                    <p>
+                    <h3>Fixed transparent pricing</h3> Price is calculated upfront based on distance — no haggling, no
+                    surprises.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon">
+                    <span><i class="icofont-check-circled"></i></span>
+                  </div>
+                  <div class="text">
+                    <p>
+                    <h3>Live GPS tracking</h3> Watch your rider in real time from pickup to drop-off on a full-screen
+                    map.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon">
+                    <span><i class="icofont-check-circled"></i></span>
+                  </div>
+                  <div class="text">
+                    <p>
+                    <h3>Dual OTP confirmation</h3> Pickup and delivery are both verified with OTPs — your package is
+                    safe at every step.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="img" data-aos="fade-up" data-aos-duration="1500">
+              <img src="images/new_screenshots/tracking.png" alt="image">
+            </div>
+          </div>
+        </div>
+
+        <!-- Traveller Earning -->
+        <div class="row service_blocks flex-row-reverse">
+          <div class="col-md-9">
             <div class="service_text right_side" data-aos="fade-up" data-aos-duration="1500">
               <div class="service_badge"><i class="icofont-ui-clock"></i>
                 <span>Traveller Benefits</span>
               </div>
-              <h2><span>Earn </span> While You Travel</h2>
-              <p>Carry small document envelopes on trips you're already taking and turn them into extra income. You
-                choose the requests—no detours, no heavy parcels.</p>
+              <h2><span>Earn </span>While You Travel</h2>
+              <p>Flying, driving, taking the bus or train? Carry a small package along your route and turn the trip into
+                extra income. You choose the requests — no detours, no heavy parcels.</p>
               <ul class="feature_list">
+                <li>
+                  <div class="icon">
+                    <span><i class="icofont-check-circled"></i></span>
+                  </div>
+                  <div class="text">
+                    <p>
+                    <h3>Any transport mode</h3> Earn whether you travel by flight, car, bus, train, or bike.</p>
+                  </div>
+                </li>
                 <li>
                   <div class="icon">
                     <span><i class="icofont-check-circled"></i></span>
@@ -426,20 +556,10 @@
                   </div>
                   <div class="text">
                     <p>
-                    <h3>Clear coordination</h3> One chat with sender & receiver for quick handovers.</p>
+                    <h3>Guaranteed payout</h3> Funds are secured at booking and released to your wallet after delivery
+                    OTP confirmation.</p>
                   </div>
                 </li>
-                <li>
-                  <div class="icon">
-                    <span><i class="icofont-check-circled"></i></span>
-                  </div>
-                  <div class="text">
-                    <p>
-                    <h3>Guaranteed payout</h3> Funds are transferred to your wallet instantly after hand over and
-                    withdrawn after Delivery OTP confirmation.</p>
-                  </div>
-                </li>
-
               </ul>
               <div class="btn_block">
                 <a href="#banner" class="btn puprple_btn ml-0">Start Earning</a>
@@ -447,62 +567,9 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-3">
             <div class="img" data-aos="fade-up" data-aos-duration="1500">
-              <img src="images/service2.png" alt="image">
-            </div>
-          </div>
-        </div>
-        <div class="row service_blocks">
-          <div class="col-md-6">
-            <div class="service_text" data-aos="fade-up" data-aos-duration="1500">
-              <div class="service_badge"><i class="icofont-list"></i> <span>Receiver Experience</span></div>
-              <h2><span>Receive </span> Without Hassle</h2>
-              <p>After booking, you join the same chat via invite link, so everyone stays on the same group until
-                delivery is done.</p>
-              <ul class="feature_list">
-                <li>
-                  <div class="icon">
-                    <span><i class="icofont-check-circled"></i></span>
-                  </div>
-                  <div class="text">
-                    <p>
-                    <h3>One secure chat</h3> Sender, Traveller, and Receiver in one place to avoid miscommunication.</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="icon">
-                    <span><i class="icofont-check-circled"></i></span>
-                  </div>
-                  <div class="text">
-                    <p>
-                    <h3>Your instructions</h3> Share location pin or landmark and set a convenient time.</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="icon">
-                    <span><i class="icofont-check-circled"></i></span>
-                  </div>
-                  <div class="text">
-                    <p>
-                    <h3>Delivery OTP</h3> Delivery is completed only when you provide the 4-digit OTP.</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="icon">
-                    <span><i class="icofont-check-circled"></i></span>
-                  </div>
-                  <div class="text">
-                    <p>
-                    <h3>Live updates</h3> Get notified on pickup, en-route status, and delivery confirmation.</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="img" data-aos="fade-up" data-aos-duration="1500">
-              <img src="images/service3.png" alt="image">
+              <img src="images/new_screenshots/create_travel.png" alt="image">
             </div>
           </div>
         </div>
@@ -694,44 +761,50 @@
         <!-- screen slider start -->
         <div class="screen_slider" data-aos="fade-up" data-aos-duration="1500">
           <div id="screen_slider" class="owl-carousel owl-theme">
+
             <div class="item">
               <div class="screen_frame_img">
-                <img src="images/1banner.png" alt="image">
+                <img src="images/new_screenshots/Sender_role.png" alt="Sender role selection">
               </div>
             </div>
             <div class="item">
               <div class="screen_frame_img">
-                <img src="images/2banner.png" alt="image">
+                <img src="images/new_screenshots/My_packages.png" alt="My packages">
               </div>
             </div>
             <div class="item">
               <div class="screen_frame_img">
-                <img src="images/3banner.png" alt="image">
+                <img src="images/new_screenshots/Traveler_list.png" alt="Traveler list">
               </div>
             </div>
             <div class="item">
               <div class="screen_frame_img">
-                <img src="images/paymentscreen.png" alt="image">
+                <img src="images/new_screenshots/Traveler_chat.png" alt="Traveler chat">
               </div>
             </div>
             <div class="item">
               <div class="screen_frame_img">
-                <img src="images/4banner.png" alt="image">
+                <img src="images/new_screenshots/Negotiate.png" alt="Negotiate price - Road model">
               </div>
             </div>
             <div class="item">
               <div class="screen_frame_img">
-                <img src="images/5banner.png" alt="image">
+                <img src="images/new_screenshots/Offer_card.png" alt="Offer card">
               </div>
             </div>
             <div class="item">
               <div class="screen_frame_img">
-                <img src="images/6banner.png" alt="image">
+                <img src="images/new_screenshots/handover.png" alt="OTP handover">
               </div>
             </div>
             <div class="item">
               <div class="screen_frame_img">
-                <img src="images/7banner.png" alt="image">
+                <img src="images/new_screenshots/tracking.png" alt="Live tracking - Kuruier Rider">
+              </div>
+            </div>
+            <div class="item">
+              <div class="screen_frame_img">
+                <img src="images/new_screenshots/shipment_chat.png" alt="Shipment chat">
               </div>
             </div>
           </div>
@@ -873,7 +946,7 @@
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
                           data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          1. What type of items can I send through Kuruier?
+                          1. What delivery models does Kuruier offer?
                           <span class="icons">
                             <i class="icofont-plus"></i>
                             <i class="icofont-minus"></i>
@@ -884,9 +957,10 @@
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                       data-parent="#accordionExample">
                       <div class="card-body">
-                        Currently, international shipments are limited to documents only. Within the same country, you
-                        may send other legal and limited goods as listed in the app. Any unlisted or restricted items
-                        are not allowed.
+                        Kuruier offers three delivery models: <strong>Air</strong> (send with flight travelers
+                        internationally or inter-city), <strong>Road</strong> (send with bus, car, train, or bike
+                        travelers for outstation deliveries), and <strong>Kuruier Rider</strong> (on-demand local
+                        delivery within your city with live GPS tracking).
                       </div>
                     </div>
                   </div>
@@ -895,7 +969,7 @@
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
                           data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          2. Who makes the payment in Kuruier?
+                          2. What type of items can I send through Kuruier?
                           <span class="icons">
                             <i class="icofont-plus"></i>
                             <i class="icofont-minus"></i>
@@ -905,7 +979,9 @@
                     </div>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                       <div class="card-body">
-                        Only shipment owners (senders) can make payments. Travelers do not pay.
+                        International shipments (Air model) are limited to documents only. Domestic Road and Rider
+                        shipments may include other legal items — snacks, medicines, limited electronics — as listed in
+                        the app. Unlisted or restricted items are not allowed.
                       </div>
                     </div>
                   </div>
@@ -914,7 +990,7 @@
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
                           data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          3. How do travelers communicate with shipment owners?
+                          3. What is the Road Model and how is it different from Air?
                           <span class="icons">
                             <i class="icofont-plus"></i>
                             <i class="icofont-minus"></i>
@@ -925,8 +1001,9 @@
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                       data-parent="#accordionExample">
                       <div class="card-body">
-                        Travelers can communicate only via predefined chat messages inside the app to maintain security
-                        and avoid misuse.
+                        The Road Model connects you with travelers going city-to-city by bus, car, train, or bike. Unlike
+                        the Air model, Road chats are completely free — no unlock fee. You can negotiate the price
+                        directly with the traveler using the app's suggested price as a starting point.
                       </div>
                     </div>
                   </div>
@@ -935,7 +1012,7 @@
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
                           data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-                          4. Can the receiver also contact the shipment owner?
+                          4. How does Kuruier Rider work?
                           <span class="icons">
                             <i class="icofont-plus"></i>
                             <i class="icofont-minus"></i>
@@ -946,8 +1023,9 @@
                     <div id="collapsefour" class="collapse" aria-labelledby="headingfour"
                       data-parent="#accordionExample">
                       <div class="card-body">
-                        Yes. Receivers (who are abroad or waiting for the delivery) can also initiate a chat and invite
-                        the shipment owner into a secure group chat for smoother coordination.
+                        Kuruier Rider is for on-demand intra-city deliveries (within ~50 km). Post a local delivery
+                        request, a nearby verified rider accepts it at a fixed price, picks up with an OTP, and delivers
+                        while you track them live on the map. A second OTP confirms delivery and releases payment.
                       </div>
                     </div>
                   </div>
@@ -967,8 +1045,9 @@
                     <div id="collapsefive" class="collapse" aria-labelledby="headingfive"
                       data-parent="#accordionExample">
                       <div class="card-body">
-                        The receiver confirms the delivery using a unique OTP. Only after OTP confirmation, the payment
-                        is released safely to the traveler.
+                        Every delivery uses a two-stage OTP system: a Handover OTP confirms pickup, and a Delivery OTP
+                        confirms drop-off. Payment is released to the traveler or rider only after the Delivery OTP is
+                        verified.
                       </div>
                     </div>
                   </div>
@@ -980,7 +1059,7 @@
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
                           data-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
-                          6. Are travelers allowed to accept goods outside the app?
+                          6. Who makes the payment in Kuruier?
                           <span class="icons">
                             <i class="icofont-plus"></i>
                             <i class="icofont-minus"></i>
@@ -990,8 +1069,8 @@
                     </div>
                     <div id="collapsesix" class="collapse" aria-labelledby="headingsix" data-parent="#accordionExample">
                       <div class="card-body">
-                        No. Travelers must only carry items listed and approved inside Kuruier. If travelers accept
-                        unlisted items outside the app, Kuruier is not responsible for any issues or disputes.
+                        Only shipment owners (senders) pay. Travelers and Riders do not pay to use the platform — they
+                        earn money by carrying and delivering packages.
                       </div>
                     </div>
                   </div>
@@ -1000,7 +1079,7 @@
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
                           data-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
-                          7. Is KYC required for travelers?
+                          7. Can I earn as a Road traveler or Kuruier Rider?
                           <span class="icons">
                             <i class="icofont-plus"></i>
                             <i class="icofont-minus"></i>
@@ -1011,8 +1090,9 @@
                     <div id="collapseseven" class="collapse" aria-labelledby="headingseven"
                       data-parent="#accordionExample">
                       <div class="card-body">
-                        Yes. KYC (Know Your Customer) verification is mandatory for travelers before they can withdraw
-                        their earnings.
+                        Yes. Register as a Road Traveler (list your bus/train/car/bike trip) and earn ₹200–800 per
+                        delivery. To become a Kuruier Rider for local deliveries, complete KYC verification in the app
+                        and toggle online to start receiving requests.
                       </div>
                     </div>
                   </div>
@@ -1032,8 +1112,8 @@
                     <div id="collapseeight" class="collapse" aria-labelledby="headingeight"
                       data-parent="#accordionExample">
                       <div class="card-body">
-                        Yes. All payments are held securely until the delivery is confirmed by OTP. Once verified, the
-                        amount is released to the traveler.
+                        Yes. All payments are held securely until the Delivery OTP is confirmed. Once verified, the
+                        amount is released to the traveler's or rider's wallet.
                       </div>
                     </div>
                   </div>
@@ -1042,7 +1122,7 @@
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
                           data-target="#collapsenine" aria-expanded="false" aria-controls="collapsenine">
-                          9. Can I send food, medicines, or electronics internationally?
+                          9. Are travelers allowed to accept goods outside the app?
                           <span class="icons">
                             <i class="icofont-plus"></i>
                             <i class="icofont-minus"></i>
@@ -1053,9 +1133,8 @@
                     <div id="collapsenine" class="collapse" aria-labelledby="headingnine"
                       data-parent="#accordionExample">
                       <div class="card-body">
-                        At the moment, international shipments allow only documents. Within-country shipments may
-                        include legal items like snacks, medicines, or limited electronics, as per the categories
-                        allowed in the app.
+                        No. Travelers and riders must only carry items listed and approved inside Kuruier. Accepting
+                        unlisted items outside the app voids Kuruier's responsibility for any issues or disputes.
                       </div>
                     </div>
                   </div>
@@ -1075,8 +1154,10 @@
                     <div id="collapseten" class="collapse" aria-labelledby="headingten"
                       data-parent="#accordionExample">
                       <div class="card-body">
-                        If no traveler accepts your shipment, you can either wait for another traveler match or request
-                        a refund based on the refund policy listed in the app. </div>
+                        If no traveler accepts your Air or Road shipment, you can wait for a new match or request a
+                        refund per the refund policy. For Rider deliveries, the wave-dispatch system automatically
+                        expands the radius to find available riders nearby.
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -1092,7 +1173,7 @@
 
   <script>
     $("#typed").typed({
-      strings: ["Fast, Affordable & Secure Courier Delivery.", "We deliver your parcels safely and quickly."],
+      strings: ["One App. Three Delivery Models.", "Air. Road. Kuruier Rider.", "Every distance covered, every time."],
       typeSpeed: 100,
       startDelay: 0,
       backSpeed: 60,
