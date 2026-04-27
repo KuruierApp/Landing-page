@@ -30,7 +30,7 @@
               <li><img src="images/banavt3.png" alt="image"></li>
               <li>
                 <a href="#" class="popup-youtube play-button"
-                  data-url="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1" data-toggle="modal"
+                  data-url="https://www.youtube.com/embed/K5_NdPFhKf0?si=AOMPeGUQJJDzRGxC" data-toggle="modal"
                   data-target="#myModal" title="XJj2PbenIsU"><img src="images/play.svg" alt="img"></a>
               </li>
             </ul>
@@ -285,7 +285,7 @@
               <img class="thumbnil" src="images/applicationvideothumb.png" alt="image">
               <div class="playBtn">
                 <a href="#" class="popup-youtube play-button play_icon"
-                  data-url="https://youtu.be/K5_NdPFhKf0" data-toggle="modal"
+                  data-url="https://www.youtube.com/embed/K5_NdPFhKf0?si=AOMPeGUQJJDzRGxC" data-toggle="modal"
                   data-target="#myModal" title="XJj2PbenIsU"><img src="images/play_white.svg" alt="img"></a>
                 <img class="spin_text" src="images/playvideotext.png" alt="image">
               </div>
