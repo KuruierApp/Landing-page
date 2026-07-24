@@ -14,11 +14,11 @@
             <div class="type-wrap">
             </div>
             <!-- h1 -->
-            <h1>One App. <span>Three Delivery Models.</span> Every Distance Covered.</h1>
+            <h1>One App. <span>Four Delivery Models.</span> Every Distance Covered.</h1>
             <!-- p -->
             <p>
-              Send via flight travelers, road travelers, or on-demand local riders — faster and cheaper than traditional
-              couriers, with secure OTP handovers every step of the way.
+              Send via flight travelers, road travelers, on-demand local riders, or a verified fleet for heavy goods —
+              faster and cheaper than traditional couriers, with secure OTP handovers every step of the way.
             </p>
           </div>
 
@@ -65,37 +65,42 @@
             <div id="frmae_slider" class="owl-carousel owl-theme">
               <div class="item">
                 <div class="slider_img">
-                  <img src="images/new_screenshots/onboarding.png" alt="image">
+                  <img src="images/choose_role.jpg" alt="Choose your role — Send, Carry, Ride or Fleet">
                 </div>
               </div>
               <div class="item">
                 <div class="slider_img">
-                  <img src="images/new_screenshots/Sender_role.png" alt="image">
+                  <img src="images/addPackage.png" alt="image">
                 </div>
               </div>
               <div class="item">
                 <div class="slider_img">
-                  <img src="images/new_screenshots/Traveler_role.png" alt="image">
+                  <img src="images/2banner.png" alt="image">
                 </div>
               </div>
               <div class="item">
                 <div class="slider_img">
-                  <img src="images/new_screenshots/create_travel.png" alt="image">
+                  <img src="images/3banner.png" alt="image">
                 </div>
               </div>
               <div class="item">
                 <div class="slider_img">
-                  <img src="images/new_screenshots/My_packages.png" alt="image">
+                  <img src="images/4banner.png" alt="image">
                 </div>
               </div>
               <div class="item">
                 <div class="slider_img">
-                  <img src="images/new_screenshots/Traveler_list.png" alt="image">
+                  <img src="images/5banner.png" alt="image">
                 </div>
               </div>
               <div class="item">
                 <div class="slider_img">
-                  <img src="images/new_screenshots/tracking.png" alt="image">
+                  <img src="images/6banner.png" alt="image">
+                </div>
+              </div>
+              <div class="item">
+                <div class="slider_img">
+                  <img src="images/7banner.png" alt="image">
                 </div>
               </div>
             </div>
@@ -124,7 +129,7 @@
           <!-- task images -->
           <div class="task_img" data-aos="fade-in" data-aos-duration="1500">
             <div class="frame_img">
-              <img src="images/new_screenshots/Traveler_list.png" alt="image">
+              <img src="images/feature1a.png" alt="image">
             </div>
             <div class="screen_img">
               <img class="moving_animation" src="images/feature1b.svg" alt="image">
@@ -162,7 +167,7 @@
           <!-- task images -->
           <div class="task_img" data-aos="fade-in" data-aos-duration="1500">
             <div class="frame_img">
-              <img src="images/new_screenshots/Negotiate.png" alt="image">
+              <img src="images/feature2a.png" alt="image">
             </div>
             <div class="screen_img">
               <img class="moving_animation" src="images/feature2b.svg" alt="image">
@@ -200,7 +205,7 @@
           <!-- task images -->
           <div class="task_img" data-aos="fade-in" data-aos-duration="1500">
             <div class="frame_img">
-              <img src="images/new_screenshots/tracking.png" alt="image">
+              <img src="images/feature3a.png" alt="image">
             </div>
             <div class="screen_img">
               <img class="moving_animation" src="images/feature3b.svg" alt="image">
@@ -229,6 +234,45 @@
       <!-- row end -->
     </div>
     <!-- Task Block end -->
+    <!-- Task Block start -->
+    <div class="task_block">
+      <div class="dotes_blue"><img src="images/blue_dotes.png" alt="image"></div>
+      <!-- row start -->
+      <div class="row">
+        <div class="col-md-6">
+          <!-- task images -->
+          <div class="task_img" data-aos="fade-in" data-aos-duration="1500">
+            <div class="frame_img">
+              <img src="images/fleet_illustration2.png" alt="image">
+            </div>
+            <div class="screen_img">
+              <img class="moving_animation" src="images/feature1b.svg" alt="image">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <!-- task text -->
+          <div class="task_text">
+            <div class="section_title white_text" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+              <span class="title_badge">🚛 Fleet Model</span>
+              <span class="icon">
+                <img src="images/fleet_truck_heavy.png" alt="image">
+              </span>
+              <!-- h2 -->
+              <h2>Heavy Goods with Verified Fleets</h2>
+              <!-- p -->
+              <p>
+                Shipping more than 50&nbsp;kg? Book a verified fleet vehicle — from a 3-wheeler to a 17-ft truck — at a
+                transparent, upfront price. A professional driver handles pickup and delivery with OTP confirmation at
+                both ends.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- row end -->
+    </div>
+    <!-- Task Block end -->
   </section>
   <!-- Task-App-Section-end -->
 
@@ -241,7 +285,7 @@
         <div class="section_title" data-aos="fade-up" data-aos-duration="1500">
           <span class="title_badge mb-1">About us</span>
           <h2>Deliver <img src="images/mobileicon.png" alt="image"> anywhere <br>
-            with <span><img src="images/usericon.png" alt="image"> Air, Road & Rider</span> & <span><img
+            with <span><img src="images/usericon.png" alt="image"> Air, Road, Rider & Fleet</span> & <span><img
                 src="images/magnet.png" alt="image"> secure OTP</span></h2>
         </div>
         <div class="row">
@@ -280,7 +324,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <p data-aos="fade-up" data-aos-duration="1500">Kuruier connects shipment owners with real travelers — by flight, bus, train, car, or bike — and with on-demand local riders for intra-city delivery. Three delivery models, one app: verified users, free-to-negotiate road chats, live GPS tracking, and secure OTP handovers every step of the way.</p>
+            <p data-aos="fade-up" data-aos-duration="1500">Kuruier connects shipment owners with real travelers — by flight, bus, train, car, or bike — with on-demand local riders for intra-city delivery, and with verified fleets for heavy goods over 50&nbsp;kg. Four delivery models, one app: verified users, free-to-negotiate road chats, live GPS tracking, upfront fleet pricing, and secure OTP handovers every step of the way.</p>
             <div class="video_block" data-aos="fade-up" data-aos-duration="1500">
               <img class="thumbnil" src="images/applicationvideothumb.png" alt="image">
               <div class="playBtn">
@@ -329,6 +373,12 @@
           </div>
           <div class="item">
             <div class="text_block">
+              <span>Fleet Model — Heavy goods delivered by verified fleets at upfront prices</span>
+              <span class="mark_star">•</span>
+            </div>
+          </div>
+          <div class="item">
+            <div class="text_block">
               <span>End-to-end secure process with OTP for pickup & delivery</span>
               <span class="mark_star">•</span>
             </div>
@@ -349,7 +399,7 @@
       <div class="container">
         <div class="section_title" data-aos="fade-up" data-aos-duration="1500">
           <span class="title_badge mb-1">How it works?</span>
-          <h2>Three delivery models. <span>One seamless</span> <br>
+          <h2>Four delivery models. <span>One seamless</span> <br>
             experience.</h2>
         </div>
 
@@ -403,7 +453,7 @@
           </div>
           <div class="col-md-3 align-self-center">
             <div class="img" data-aos="fade-up" data-aos-duration="1500">
-              <img src="images/new_screenshots/Traveler_chat.png" alt="image">
+              <img src="images/service1.png" alt="image">
             </div>
           </div>
         </div>
@@ -458,7 +508,7 @@
           </div>
           <div class="col-md-3">
             <div class="img" data-aos="fade-up" data-aos-duration="1500">
-              <img src="images/new_screenshots/Negotiate.png" alt="image">
+              <img src="images/service2.png" alt="image">
             </div>
           </div>
         </div>
@@ -516,15 +566,81 @@
           </div>
           <div class="col-md-3">
             <div class="img" data-aos="fade-up" data-aos-duration="1500">
-              <img src="images/new_screenshots/tracking.png" alt="image">
+              <img src="images/service3.png" alt="image">
+            </div>
+          </div>
+        </div>
+
+        <!-- Fleet Model -->
+        <div class="row service_blocks flex-row-reverse">
+          <div class="col-md-9">
+            <div class="service_text right_side" data-aos="fade-up" data-aos-duration="1500">
+              <div class="service_badge"><i class="icofont-truck-loaded"></i>
+                <span>Fleet Model — Heavy Goods Freight</span>
+              </div>
+              <h2><span>Move Heavy Goods </span>with a <br>Verified Fleet</h2>
+              <p>Shipping over 50&nbsp;kg? Choose a vehicle type — from a 3-wheeler to a 17-ft truck — and book
+                instantly at an exact, upfront price. A verified operator assigns a driver who handles pickup and drop-off
+                with OTP confirmation.</p>
+              <ul class="feature_list">
+                <li>
+                  <div class="icon">
+                    <span><i class="icofont-check-circled"></i></span>
+                  </div>
+                  <div class="text">
+                    <p>
+                    <h3>Choose your vehicle</h3> Pick by capacity with clear examples — from a 3-wheeler up to a 17-ft
+                    truck.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon">
+                    <span><i class="icofont-check-circled"></i></span>
+                  </div>
+                  <div class="text">
+                    <p>
+                    <h3>Exact upfront pricing</h3> Fares are calculated on distance and vehicle type — no negotiation, no
+                    surprises.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon">
+                    <span><i class="icofont-check-circled"></i></span>
+                  </div>
+                  <div class="text">
+                    <p>
+                    <h3>Assigned professional driver</h3> A verified fleet operator assigns a driver and vehicle to your
+                    booking.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon">
+                    <span><i class="icofont-check-circled"></i></span>
+                  </div>
+                  <div class="text">
+                    <p>
+                    <h3>Secure OTP handover</h3> Pickup and delivery are both OTP-verified — pay in-app with escrow or
+                    settle offline.</p>
+                  </div>
+                </li>
+              </ul>
+              <div class="btn_block">
+                <a href="#banner" class="btn puprple_btn ml-0">Book a Vehicle</a>
+                <div class="btn_bottom"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="img" data-aos="fade-up" data-aos-duration="1500">
+              <img src="images/fleet_illustration.png" alt="image">
             </div>
           </div>
         </div>
 
         <!-- Traveller Earning -->
-        <div class="row service_blocks flex-row-reverse">
+        <div class="row service_blocks">
           <div class="col-md-9">
-            <div class="service_text right_side" data-aos="fade-up" data-aos-duration="1500">
+            <div class="service_text" data-aos="fade-up" data-aos-duration="1500">
               <div class="service_badge"><i class="icofont-ui-clock"></i>
                 <span>Traveller Benefits</span>
               </div>
@@ -569,7 +685,7 @@
           </div>
           <div class="col-md-3">
             <div class="img" data-aos="fade-up" data-aos-duration="1500">
-              <img src="images/new_screenshots/create_travel.png" alt="image">
+              <img src="images/paymentscreen.png" alt="image">
             </div>
           </div>
         </div>
@@ -764,47 +880,42 @@
 
             <div class="item">
               <div class="screen_frame_img">
-                <img src="images/new_screenshots/Sender_role.png" alt="Sender role selection">
+                <img src="images/choose_role.jpg" alt="Choose your role — Send, Carry, Ride or Fleet">
               </div>
             </div>
             <div class="item">
               <div class="screen_frame_img">
-                <img src="images/new_screenshots/My_packages.png" alt="My packages">
+                <img src="images/2banner.png" alt="Kuruier app screen">
               </div>
             </div>
             <div class="item">
               <div class="screen_frame_img">
-                <img src="images/new_screenshots/Traveler_list.png" alt="Traveler list">
+                <img src="images/3banner.png" alt="Kuruier app screen">
               </div>
             </div>
             <div class="item">
               <div class="screen_frame_img">
-                <img src="images/new_screenshots/Traveler_chat.png" alt="Traveler chat">
+                <img src="images/paymentscreen.png" alt="Secure payment screen">
               </div>
             </div>
             <div class="item">
               <div class="screen_frame_img">
-                <img src="images/new_screenshots/Negotiate.png" alt="Negotiate price - Road model">
+                <img src="images/4banner.png" alt="Kuruier app screen">
               </div>
             </div>
             <div class="item">
               <div class="screen_frame_img">
-                <img src="images/new_screenshots/Offer_card.png" alt="Offer card">
+                <img src="images/5banner.png" alt="Kuruier app screen">
               </div>
             </div>
             <div class="item">
               <div class="screen_frame_img">
-                <img src="images/new_screenshots/handover.png" alt="OTP handover">
+                <img src="images/6banner.png" alt="Kuruier app screen">
               </div>
             </div>
             <div class="item">
               <div class="screen_frame_img">
-                <img src="images/new_screenshots/tracking.png" alt="Live tracking - Kuruier Rider">
-              </div>
-            </div>
-            <div class="item">
-              <div class="screen_frame_img">
-                <img src="images/new_screenshots/shipment_chat.png" alt="Shipment chat">
+                <img src="images/7banner.png" alt="Kuruier app screen">
               </div>
             </div>
           </div>
@@ -957,10 +1068,34 @@
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                       data-parent="#accordionExample">
                       <div class="card-body">
-                        Kuruier offers three delivery models: <strong>Air</strong> (send with flight travelers
+                        Kuruier offers four delivery models: <strong>Air</strong> (send with flight travelers
                         internationally or inter-city), <strong>Road</strong> (send with bus, car, train, or bike
-                        travelers for outstation deliveries), and <strong>Kuruier Rider</strong> (on-demand local
-                        delivery within your city with live GPS tracking).
+                        travelers for outstation deliveries), <strong>Kuruier Rider</strong> (on-demand local delivery
+                        within your city with live GPS tracking), and <strong>Fleet</strong> (verified fleet operators
+                        for heavy goods over 50&nbsp;kg, booked at an upfront price).
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingFleet">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                          data-target="#collapseFleet" aria-expanded="false" aria-controls="collapseFleet">
+                          2. What is the Fleet model and when should I use it?
+                          <span class="icons">
+                            <i class="icofont-plus"></i>
+                            <i class="icofont-minus"></i>
+                          </span>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseFleet" class="collapse" aria-labelledby="headingFleet"
+                      data-parent="#accordionExample">
+                      <div class="card-body">
+                        The Fleet model is for heavy or bulky shipments over 50&nbsp;kg that a traveler or rider can't
+                        carry. You pick a vehicle type — from a 3-wheeler to a 17-ft truck — and book it at an exact,
+                        upfront price. A verified fleet operator assigns a driver and vehicle, and pickup and delivery
+                        are both confirmed with OTPs. You can pay in-app (held safely in escrow) or settle offline.
                       </div>
                     </div>
                   </div>
@@ -969,7 +1104,7 @@
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
                           data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          2. What type of items can I send through Kuruier?
+                          3. What type of items can I send through Kuruier?
                           <span class="icons">
                             <i class="icofont-plus"></i>
                             <i class="icofont-minus"></i>
@@ -981,7 +1116,8 @@
                       <div class="card-body">
                         International shipments (Air model) are limited to documents only. Domestic Road and Rider
                         shipments may include other legal items — snacks, medicines, limited electronics — as listed in
-                        the app. Unlisted or restricted items are not allowed.
+                        the app. Heavier or bulky consignments over 50&nbsp;kg go through the Fleet model. Unlisted or
+                        restricted items are not allowed.
                       </div>
                     </div>
                   </div>
@@ -990,7 +1126,7 @@
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
                           data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          3. What is the Road Model and how is it different from Air?
+                          4. What is the Road Model and how is it different from Air?
                           <span class="icons">
                             <i class="icofont-plus"></i>
                             <i class="icofont-minus"></i>
@@ -1012,7 +1148,7 @@
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
                           data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-                          4. How does Kuruier Rider work?
+                          5. How does Kuruier Rider work?
                           <span class="icons">
                             <i class="icofont-plus"></i>
                             <i class="icofont-minus"></i>
@@ -1034,7 +1170,7 @@
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
                           data-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
-                          5. How is the delivery confirmed?
+                          6. How is the delivery confirmed?
                           <span class="icons">
                             <i class="icofont-plus"></i>
                             <i class="icofont-minus"></i>
@@ -1059,7 +1195,7 @@
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
                           data-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
-                          6. Who makes the payment in Kuruier?
+                          7. Who makes the payment in Kuruier?
                           <span class="icons">
                             <i class="icofont-plus"></i>
                             <i class="icofont-minus"></i>
@@ -1079,7 +1215,7 @@
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
                           data-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
-                          7. Can I earn as a Road traveler or Kuruier Rider?
+                          8. Can I earn as a Road traveler, Kuruier Rider or Fleet operator?
                           <span class="icons">
                             <i class="icofont-plus"></i>
                             <i class="icofont-minus"></i>
@@ -1092,7 +1228,8 @@
                       <div class="card-body">
                         Yes. Register as a Road Traveler (list your bus/train/car/bike trip) and earn ₹200–800 per
                         delivery. To become a Kuruier Rider for local deliveries, complete KYC verification in the app
-                        and toggle online to start receiving requests.
+                        and toggle online to start receiving requests. Fleet operators can register their business,
+                        add vehicles and drivers, and accept heavy-goods bookings on their routes.
                       </div>
                     </div>
                   </div>
@@ -1101,7 +1238,7 @@
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
                           data-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
-                          8. Is my payment safe?
+                          9. Is my payment safe?
                           <span class="icons">
                             <i class="icofont-plus"></i>
                             <i class="icofont-minus"></i>
@@ -1122,7 +1259,7 @@
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
                           data-target="#collapsenine" aria-expanded="false" aria-controls="collapsenine">
-                          9. Are travelers allowed to accept goods outside the app?
+                          10. Are travelers allowed to accept goods outside the app?
                           <span class="icons">
                             <i class="icofont-plus"></i>
                             <i class="icofont-minus"></i>
@@ -1143,7 +1280,7 @@
                       <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
                           data-target="#collapseten" aria-expanded="false" aria-controls="collapseten">
-                          10. What happens if a shipment is rejected by all travelers?
+                          11. What happens if a shipment is rejected by all travelers?
                           <span class="icons">
                             <i class="icofont-plus"></i>
                             <i class="icofont-minus"></i>
@@ -1156,7 +1293,8 @@
                       <div class="card-body">
                         If no traveler accepts your Air or Road shipment, you can wait for a new match or request a
                         refund per the refund policy. For Rider deliveries, the wave-dispatch system automatically
-                        expands the radius to find available riders nearby.
+                        expands the radius to find available riders nearby. For Fleet bookings, your request stays open
+                        until an operator accepts it, and you can cancel anytime before pickup.
                       </div>
                     </div>
                   </div>
@@ -1173,7 +1311,7 @@
 
   <script>
     $("#typed").typed({
-      strings: ["One App. Three Delivery Models.", "Air. Road. Kuruier Rider.", "Every distance covered, every time."],
+      strings: ["One App. Four Delivery Models.", "Air. Road. Rider. Fleet.", "Every distance covered, every time."],
       typeSpeed: 100,
       startDelay: 0,
       backSpeed: 60,
