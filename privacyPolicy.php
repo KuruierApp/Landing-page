@@ -98,6 +98,7 @@
           <a class="policy-link home-link" href="index.php"><i class="icofont-home"></i> Home</a>
           <a class="policy-link" href="termsAndConditions.php"><i class="icofont-notebook"></i> Terms & Conditions</a>
           <a class="policy-link" href="refundPolicy.php"><i class="icofont-money"></i> Refund Policy</a>
+          <a class="policy-link" href="deleteAccount.php"><i class="icofont-trash"></i> Delete Account</a>
         </div>
       </div>
     </div>
