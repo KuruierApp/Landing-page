@@ -16,11 +16,24 @@ require 'vendor/phpmailer/phpmailer/src/PHPMailer.php';
 require 'vendor/phpmailer/phpmailer/src/SMTP.php';
 
 // --- Gmail SMTP Configuration ---
-const SMTP_HOST = 'smtp.gmail.com';
-const SMTP_PORT = 587;
-const SMTP_USERNAME = 'kuruier05@gmail.com';
-const SMTP_PASSWORD = 'mbdntzumqvleyxnt'; // Gmail App Password
-const RECIPIENT_EMAIL = 'kuruier05@gmail.com';
+// Credentials come from the environment, never from source control. The loader
+// checks real env vars first, then an env file above the web root, then .env.
+// See .env.example for the keys this expects.
+require_once __DIR__ . '/includes/config.php';
+
+try {
+    define('SMTP_HOST',       kuruier_config('SMTP_HOST', 'smtp.gmail.com'));
+    define('SMTP_PORT',       (int) kuruier_config('SMTP_PORT', 587));
+    define('SMTP_USERNAME',   kuruier_config_required('SMTP_USERNAME'));
+    define('SMTP_PASSWORD',   kuruier_config_required('SMTP_PASSWORD'));
+    define('RECIPIENT_EMAIL', kuruier_config('RECIPIENT_EMAIL', SMTP_USERNAME));
+} catch (\RuntimeException $e) {
+    // The message names the missing key only -- never a credential value.
+    error_log('Mail configuration error: ' . $e->getMessage());
+    http_response_code(500);
+    echo "There was an issue sending your message. Please try again or contact us directly.";
+    exit;
+}
 
 // ==================================================================================
 // 2. FORM DATA VALIDATION & EXTRACTION
@@ -149,6 +162,8 @@ try {
     
     // User-friendly response on failure
     http_response_code(500);
-    echo "There was an issue sending your message. Please try again or contact us directly. Error: " . $mail->ErrorInfo;
+    // Deliberately generic: $mail->ErrorInfo can echo the SMTP dialogue and the
+    // authenticating username back to the visitor. It is in the error log above.
+    echo "There was an issue sending your message. Please try again or contact us directly.";
 }
 ?>
