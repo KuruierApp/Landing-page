@@ -40,8 +40,9 @@
             This is the fastest route and takes effect immediately.<br />
             1. Open the Kuruier app.<br />
             2. Go to the <strong>Profile</strong> tab.<br />
-            3. Scroll down and tap <strong>Delete Account</strong>.<br />
-            4. Confirm when asked.
+            3. Tap <strong>Account &amp; privacy</strong>.<br />
+            4. Tap <strong>Delete Account</strong> at the bottom of that screen.<br />
+            5. Choose a reason, type DELETE and confirm.
           </li>
 
           <li><span class="section-number">2.</span> <strong>Or ask us to delete it for you</strong><br />

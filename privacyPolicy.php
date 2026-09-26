@@ -74,8 +74,9 @@
             <strong>How to delete your Kuruier account and data:</strong><br />
             1. Open the Kuruier app.<br />
             2. Go to the <strong>Profile</strong> tab.<br />
-            3. Scroll down and tap on <strong>Delete Account</strong>.<br />
-            4. Confirm your choice. Your personal data will be removed from our systems.<br />
+            3. Tap <strong>Account &amp; privacy</strong>.<br />
+            4. Tap <strong>Delete Account</strong> at the bottom of that screen.<br />
+            5. Choose a reason, type DELETE and confirm. Your personal data will be removed from our systems.<br />
             Alternatively, email <a href="mailto:support@kuruier.com">support@kuruier.com</a> to request data deletion.<br />
             Deleting your account does not cancel obligations already incurred &mdash; an unpaid amount, an open dispute or a booking in progress must be settled first.
           </li>
