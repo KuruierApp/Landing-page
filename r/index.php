@@ -15,7 +15,8 @@ $code = isset($_GET['code']) ? preg_replace('/[^A-Za-z0-9_-]/', '', $_GET['code'
 $ua = isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : '';
 
 $androidPackage = 'com.marseltechlabs.kuruier';
-// Android install referrer carries the referral code through the Play Store install.
+// Passes a referrer hint to Play; no native install-referrer reader is implemented in the app.
+// Attribution across install is unverified. Manual referral-code entry is the fallback.
 $playStoreUrl = 'https://play.google.com/store/apps/details?id=' . $androidPackage
     . '&referrer=' . rawurlencode('utm_source=referral&code=' . $code);
 

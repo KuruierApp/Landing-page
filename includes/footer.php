@@ -11,7 +11,7 @@
               </div>
               <div class="news_letter" id="newsletter-form">
                 <h3>Subscribe newsletter</h3>
-                <p>Be the first to recieve all latest post in your inbox</p>
+                <p>Get Kuruier news, service updates and business tips in your inbox.</p>
                 <form action="send_email.php" method="POST" class="newsletter-form" onsubmit="this.querySelector('.submit-btn').classList.add('loading')">
                   <input type="hidden" name="form_type" value="newsletter">
                   <div class="form-group">
@@ -22,7 +22,7 @@
                       <span class="spinner"></span>
                     </button>
                   </div>
-                  <p class="note">By clicking send link you agree to receive marketing emails.</p>
+                  <p class="note">By subscribing, you agree to receive marketing emails.</p>
                 </form>
                 <?php if (isset($_GET['subscribed']) && $_GET['subscribed'] == '1'): ?>
                 <p class="success-message" style="color: #4CAF50; font-size: 14px; margin-top: 10px;">✅ Thank you for subscribing!</p>
@@ -67,7 +67,7 @@
         <div class="container">
           <div class="ft_inner">
             <div class="copy_text">
-              <p>© Copyrights 2025. All rights reserved.</p>
+              <p>© <?php echo date('Y'); ?> Kuruier. All rights reserved.</p>
             </div>
             <ul class="links">
               <li><a href="index.php">Home</a></li>

@@ -17,6 +17,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php echo isset($pageTitle) ? $pageTitle : 'Kuruier'; ?></title>
 
+  <?php if (isset($pageDescription)): ?>
+  <meta name="description" content="<?php echo htmlspecialchars($pageDescription, ENT_QUOTES, 'UTF-8'); ?>">
+  <?php endif; ?>
+
   <!-- icofont-css-link -->
   <link rel="stylesheet" href="css/icofont.min.css">
   <!-- Owl-Carosal-Style-link -->
@@ -29,6 +33,9 @@
   <link rel="stylesheet" href="css/style.css">
   <!-- Responsive-Style-link -->
   <link rel="stylesheet" href="css/responsive.css">
+  <?php if (isset($pageStylesheet)): ?>
+  <link rel="stylesheet" href="<?php echo htmlspecialchars($pageStylesheet, ENT_QUOTES, 'UTF-8'); ?>">
+  <?php endif; ?>
   <!-- Favicon -->
   <link rel="shortcut icon" href="images/fav.png" type="image/x-icon">
 
