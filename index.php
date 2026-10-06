@@ -17,8 +17,8 @@ include 'includes/header.php';
   </div>
   <div class="hero-visual" aria-label="Kuruier truck booking and local delivery app screens">
     <div class="visual-orbit"></div>
-    <figure class="phone hero-phone-secondary"><img width="601" height="1300" src="images/business/rider-booking.webp" alt="Local Rider booking: pickup, drop and parcel details"><figcaption>KURUIER RIDER · LOCAL DELIVERY</figcaption></figure>
-    <figure class="phone hero-phone-primary"><img width="583" height="1300" src="images/business/book-truck.webp" alt="Choose a truck and compare vehicle prices in Kuruier"><figcaption>FLEET · BOOK YOUR TRUCK</figcaption></figure>
+    <figure class="phone hero-phone-secondary"><img width="583" height="1300" src="images/business/book-truck.webp" alt="Choose a truck and compare vehicle prices in Kuruier"><figcaption>FLEET · BOOK YOUR TRUCK</figcaption></figure>
+    <figure class="phone hero-phone-primary"><img width="601" height="1300" src="images/business/rider-booking.webp" alt="Local Rider booking: pickup, drop and parcel details"><figcaption>KURUIER RIDER · LOCAL DELIVERY</figcaption></figure>
     <div class="visual-note"><span aria-hidden="true">✓</span> Your route. Your right vehicle.</div>
   </div>
 </div>
