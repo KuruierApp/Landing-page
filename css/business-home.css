@@ -27,3 +27,49 @@
 .business-home .hero-store-links a:hover{background:#172650}
 .business-home .hero-store-links img{display:block;width:150px;height:auto}
 @media(max-width:375px){.business-home .hero-store-links{gap:10px}.business-home .hero-store-links a{padding:10px 12px}.business-home .hero-store-links img{width:125px}}
+
+/* Three home screens: sender stays centered and in front at every breakpoint. */
+.hero-three-screens{gap:0;min-width:0;min-height:550px;isolation:isolate}
+.hero-three-screens .phone{border-width:5px;border-radius:24px}
+.hero-three-screens .hero-phone-primary{width:40%;max-width:210px;margin:0;transform:translateY(-16px);z-index:2}
+.hero-three-screens .hero-phone-left,.hero-three-screens .hero-phone-right{width:34%;max-width:180px;margin-top:45px;z-index:1}
+.hero-three-screens .hero-phone-left{margin-right:-6%;transform:rotate(-8deg)}
+.hero-three-screens .hero-phone-right{margin-left:-6%;transform:rotate(8deg)}
+.hero-three-screens .visual-note{left:50%;transform:translateX(-50%);white-space:nowrap;bottom:0;z-index:3}
+@media(min-width:768px) and (max-width:991px){.hero-three-screens{min-height:400px}.hero-three-screens .phone{border-width:4px;border-radius:20px}}
+@media(max-width:767px){.hero-three-screens{min-height:0;padding-top:30px;padding-bottom:75px}.hero-three-screens .visual-note{bottom:8px}}
+@media(max-width:375px){.hero-three-screens .phone{border-width:3px;border-radius:17px}.hero-three-screens .phone figcaption{font-size:7px}}
+
+/* Rider showcase, immediately before the fleet-owner section. */
+.local-partner-section{background:linear-gradient(135deg,#eef8f5,#f4f7ff);padding:80px 0 95px}
+.local-partner-layout{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}
+.local-partner-copy{min-width:0}
+.local-partner-copy .eyebrow,.local-partner-copy h2 span{color:#087b5b}
+.local-partner-benefits{margin:28px 0}
+.local-partner-benefits>div{border-top:1px solid #d6e7e1;padding:17px 0 0}
+.local-partner-benefits h3{font-size:18px;letter-spacing:-.02em;margin-bottom:8px}
+.local-partner-benefits p{font-size:14px;margin-bottom:17px}
+.local-partner-copy .business-button{background:#087b5b;box-shadow:0 8px 20px #087b5b22}
+.local-partner-copy .business-button:hover{background:#065d45}
+.local-partner-screens{display:flex;align-items:center;justify-content:center;gap:20px;min-width:0;padding:16px 0 40px}
+.local-partner-screens .phone{width:calc((100% - 20px)/2);max-width:225px;border-color:#153c37}
+.local-partner-screens .phone:last-child{transform:translateY(40px)}
+@media(max-width:991px){.local-partner-layout{gap:28px}.local-partner-screens{gap:12px}.local-partner-screens .phone{width:calc((100% - 12px)/2);border-width:4px;border-radius:22px}}
+@media(max-width:767px){.local-partner-section{padding:55px 0 65px}.local-partner-layout{grid-template-columns:1fr;gap:22px}.local-partner-screens{width:100%;max-width:480px;margin:auto}.local-partner-screens .phone:last-child{transform:translateY(24px)}}
+
+/* Fleet overview and the sender booking journey. */
+.fleet-overview-screens{min-width:0;padding-bottom:40px}
+.fleet-overview-screens .phone{width:calc((100% - 22px)/2);max-width:220px}
+.fleet-booking-showcase{margin-top:65px;padding-top:45px;border-top:1px solid #ffffff26}
+.fleet-showcase-intro{max-width:650px;margin-bottom:30px}
+.owner-section .fleet-showcase-intro h3,.owner-section .fleet-showcase-card h3{color:#fff}
+.fleet-showcase-intro h3{font-size:32px}
+.fleet-showcase-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.fleet-showcase-card{padding:28px 28px 32px;border:1px solid #ffffff26;border-radius:24px;background:linear-gradient(145deg,#ffffff0d,#ffffff03);display:flex;flex-direction:column;align-items:center;min-width:0}
+.fleet-showcase-copy{align-self:stretch;margin-bottom:26px}
+.fleet-step{display:block;font-size:11px;letter-spacing:.12em;font-weight:700;color:#abb7ff;margin-bottom:14px}
+.fleet-showcase-card h3{font-size:24px;margin-bottom:12px}
+.fleet-showcase-card p{font-size:14px;margin:0}
+.fleet-showcase-card .phone{width:100%;max-width:235px;margin-top:auto;border-color:#576189;box-shadow:0 20px 40px #00000030}
+@media(max-width:991px){.fleet-overview-screens{gap:12px}.fleet-overview-screens .phone{width:calc((100% - 12px)/2);border-width:4px}.fleet-showcase-card{padding:24px 20px}}
+@media(max-width:767px){.fleet-booking-showcase{margin-top:30px;padding-top:30px}.fleet-overview-screens{max-width:480px;width:100%;margin:auto}.fleet-showcase-grid{grid-template-columns:1fr}.fleet-showcase-card .phone{max-width:250px}.fleet-showcase-intro h3{font-size:28px}}
