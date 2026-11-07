@@ -77,7 +77,20 @@ if ($is_newsletter) {
 } else {
     // Contact form - requires name, email, etc.
     $name = isset($_POST['name']) ? htmlspecialchars(strip_tags(trim($_POST['name']))) : '';
-    $phone = isset($_POST['phone']) ? htmlspecialchars(strip_tags(trim($_POST['phone']))) : 'Not provided';
+    $phone_raw = isset($_POST['phone']) ? trim($_POST['phone']) : '';
+    if ($phone_raw !== '') {
+        // Block +1 only, keep phone optional: empty phone is still allowed.
+        // Normalize spaces, dashes, brackets so +1 (415) 555-1234 is caught too.
+        $phone_normalized = preg_replace('/[^\d+]/', '', $phone_raw);
+        if (preg_match('/^\+1\d{10}$/', $phone_normalized) || preg_match('/^001\d{10}$/', $phone_normalized)) {
+            http_response_code(400);
+            echo "Error: +1 phone numbers are not accepted. Please use an Indian mobile number or leave the phone field blank.";
+            exit;
+        }
+        $phone = htmlspecialchars(strip_tags($phone_normalized));
+    } else {
+        $phone = 'Not provided';
+    }
     $comments = isset($_POST['comments']) ? htmlspecialchars(strip_tags(trim($_POST['comments']))) : 'No comments provided';
     $agree_terms = isset($_POST['agree_terms']) ? 'Yes' : 'No';
 
